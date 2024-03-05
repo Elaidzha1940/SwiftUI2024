@@ -13,6 +13,7 @@
 		E4BAC58A2B9749DB0032AC6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BAC5892B9749DB0032AC6B /* Preview Assets.xcassets */; };
 		E4BAC5952B977D030032AC6B /* ViewThatFitsSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAC5942B977D030032AC6B /* ViewThatFitsSwiftUI.swift */; };
 		E4BAC5982B9782F10032AC6B /* GridSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAC5972B9782F10032AC6B /* GridSwiftUI.swift */; };
+		E4F938912B97C0DB005F6D78 /* ControlGroupSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F938902B97C0DB005F6D78 /* ControlGroupSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E4BAC5892B9749DB0032AC6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4BAC5942B977D030032AC6B /* ViewThatFitsSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsSwiftUI.swift; sourceTree = "<group>"; };
 		E4BAC5972B9782F10032AC6B /* GridSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSwiftUI.swift; sourceTree = "<group>"; };
+		E4F938902B97C0DB005F6D78 /* ControlGroupSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E4BAC5912B977B950032AC6B /* AnyLayout */,
 				E4BAC5932B977C500032AC6B /* ViewThatFits */,
 				E4BAC5962B9782D80032AC6B /* Grid */,
+				E4F9388F2B97C0CD005F6D78 /* ControlGroup */,
 				E4BAC5922B977BA60032AC6B /* Resources */,
 				E4BAC5882B9749DB0032AC6B /* Preview Content */,
 			);
@@ -103,6 +106,14 @@
 				E4BAC5972B9782F10032AC6B /* GridSwiftUI.swift */,
 			);
 			path = Grid;
+			sourceTree = "<group>";
+		};
+		E4F9388F2B97C0CD005F6D78 /* ControlGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E4F938902B97C0DB005F6D78 /* ControlGroupSwiftUI.swift */,
+			);
+			path = ControlGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			files = (
 				E4BAC5952B977D030032AC6B /* ViewThatFitsSwiftUI.swift in Sources */,
 				E4BAC5982B9782F10032AC6B /* GridSwiftUI.swift in Sources */,
+				E4F938912B97C0DB005F6D78 /* ControlGroupSwiftUI.swift in Sources */,
 				E4BAC5852B9749DB0032AC6B /* AnyLayoutSwiftUI.swift in Sources */,
 				E4BAC5832B9749DB0032AC6B /* SwiftUI2024App.swift in Sources */,
 			);
