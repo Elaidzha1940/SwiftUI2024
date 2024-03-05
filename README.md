@@ -1,5 +1,8 @@
+AnyLayout, ViewThatFits, Grid / GridRow, ControlGroup / Menu
+=============================================================
+
 AnyLayout
-=========
+----------
 `````````ruby
 
 import SwiftUI
@@ -27,7 +30,7 @@ struct AnyLayoutSwiftUI: View {
 ---------
 
 ViewThatFits
-============
+------------
 ````````````ruby
 
 import SwiftUI
@@ -58,7 +61,7 @@ struct ViewThatFitsSwiftUI: View {
 ------------
 
 Grid
-=====
+----
 
 <img width="383" alt="light" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/6e8ddf51-3a6d-4a22-81d3-e13bb2fcf8aa">
 <img width="383" alt="dark" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/d550edb3-93ca-44c4-8410-961980c632df">
@@ -144,12 +147,61 @@ struct GridSwiftUI: View {
 ------
 
 ControlGroup / Menu
-===================
+-------------------
+
+https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/8ef42325-01b3-4a56-9f25-7bc2f2eaa849
+
 ```````````````````ruby
+import SwiftUI
 
+struct ControlGroupSwiftUI: View {
+    var body: some View {
+        Menu("Open Menu") {
+            ControlGroup("Food"){
+                Button("Vegies") {
+                    
+                }
+                Button("Sweet") {
+                    
+                }
+                Menu("Fruits") {
+                    Button("Apple") {
+                        
+                    }
+                    Button("Banana") {
+                        
+                    }
+                }
+            }
+            Button("Hey!") {
+                
+            }
+            Menu("Mood") {
+                Button("Hey!") {
+                    
+                }
+                Menu("How are you?") {
+                    Button("Good") {
+                        
+                    }
+                    Button("Bad") {
+                        
+                    }
+                }
+            }
+        }
+        .buttonStyle(.bordered)
+        .font(.system(size: 18, weight: .semibold, design: .rounded))
+        .foregroundStyle(Color(.label))
+    }
+}
 
+#Preview {
+    ControlGroupSwiftUI()
+}
 
 ```````````````````
+-------------------
 
 
 
