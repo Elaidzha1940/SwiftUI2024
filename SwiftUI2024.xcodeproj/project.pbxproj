@@ -55,7 +55,7 @@
 		E4BAC5812B9749DB0032AC6B /* SwiftUI2024 */ = {
 			isa = PBXGroup;
 			children = (
-				E4BAC5902B977B820032AC6B /* Main */,
+				E4BAC5822B9749DB0032AC6B /* SwiftUI2024App.swift */,
 				E4BAC5912B977B950032AC6B /* AnyLayout */,
 				E4BAC5932B977C500032AC6B /* ViewThatFits */,
 				E4BAC5962B9782D80032AC6B /* Grid */,
@@ -71,14 +71,6 @@
 				E4BAC5892B9749DB0032AC6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E4BAC5902B977B820032AC6B /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				E4BAC5822B9749DB0032AC6B /* SwiftUI2024App.swift */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		E4BAC5912B977B950032AC6B /* AnyLayout */ = {

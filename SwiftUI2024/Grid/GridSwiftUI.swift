@@ -11,35 +11,50 @@ import SwiftUI
 
 struct GridSwiftUI: View {
     var body: some View {
-        Grid {
-            GridRow {
-                cell(int: 1)
-                cell(int: 2)
-                cell(int: 3)
-                cell(int: 4)
+        
+        Grid(alignment: .center, horizontalSpacing: 5, verticalSpacing: 5) {
+            ForEach(0..<4) { rowIndex in
+                GridRow {
+                    ForEach(0..<4) { columnIndex in
+                        let cellNumber = (rowIndex * 4) + (columnIndex * 1)
+                        cell(int: cellNumber)
+                    }
+                }
             }
-            
-            Divider()
-                .gridCellUnsizedAxes(.horizontal)
-            
-            GridRow {
-                cell(int: 5)
-                cell(int: 6)
-                cell(int: 7)
-                cell(int: 8)
-            }
+            .cornerRadius(20)
         }
-        .cornerRadius(10)
     }
+    
+    //Grid {
+    //    GridRow {
+    //        cell(int: 1)
+    //        cell(int: 2)
+    //        cell(int: 3)
+    //        cell(int: 4)
+    //    }
+    //
+    //    Divider()
+    //        .gridCellUnsizedAxes(.horizontal)
+    //        .foregroundColor(.red)
+    //
+    //    GridRow {
+    //        cell(int: 5)
+    //        cell(int: 6)
+    //        cell(int: 7)
+    //        cell(int: 8)
+    //    }
+    //}
+    //.cornerRadius(10)
     
     private func cell(int: Int) -> some View {
         Text("\(int)")
             .font(.system(size: 20, weight: .bold, design: .rounded))
-            .padding()
-            .background(Color.green.opacity(0.5))
+            .padding(30)
+            .background(Color.gray.gradient)
     }
 }
 
 #Preview {
     GridSwiftUI()
 }
+

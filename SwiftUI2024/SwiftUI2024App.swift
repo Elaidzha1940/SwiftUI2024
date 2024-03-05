@@ -13,7 +13,7 @@ import SwiftUI
 struct SwiftUI2024App: App {
     var body: some Scene {
         WindowGroup {
-            AnyLayoutSwiftUI()
+            GridSwiftUI()
         }
     }
 }
