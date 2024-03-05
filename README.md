@@ -13,7 +13,7 @@ struct AnyLayoutSwiftUI: View {
             Text("Horizontal: \(horizontalSizeClass.debugDescription)")
             Text("Vertical: \(verticalSizeClass.debugDescription)")
             
-            let layout: AnyLayout = horizontalSizeClass == .compact ? AnyLayout(HStackLayout()) : AnyLayout(HStackLayout())
+            let layout: AnyLayout = horizontalSizeClass == .compact ? AnyLayout(VStackLayout()) : AnyLayout(HStackLayout())
             
             layout {
                 Text("First")
