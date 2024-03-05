@@ -56,3 +56,13 @@ struct ViewThatFitsSwiftUI: View {
 }
 ````````````
 ------------
+
+NavigationSplitView
+===================
+```````````````````ruby
+
+
+
+```````````````````
+
+
