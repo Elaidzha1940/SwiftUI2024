@@ -1,4 +1,4 @@
-AnyLayout, ViewThatFits, Grid / GridRow, ControlGroup / Menu
+AnyLayout, ViewThatFits, Grid / GridRow, ControlGroup / Menu.
 =============================================================
 
 AnyLayout
