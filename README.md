@@ -62,6 +62,7 @@ Grid
 
 <img width="383" alt="light" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/6e8ddf51-3a6d-4a22-81d3-e13bb2fcf8aa">
 <img width="383" alt="dark" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/d550edb3-93ca-44c4-8410-961980c632df">
+-----
 
 `````ruby
 import SwiftUI
