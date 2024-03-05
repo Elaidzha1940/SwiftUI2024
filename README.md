@@ -108,11 +108,12 @@ struct GridSwiftUI: View {
 
 ``````
 
+Grid 2
+------
+
 <img width="386" alt="light1" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/032664b4-4590-467d-aa86-d04ec441ae4e">
 <img width="386" alt="dark1" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/84355be0-a341-4a1e-a710-7da7046d41f1">
 
-Grid 2
-------
 ``````ruby
 
 import SwiftUI
