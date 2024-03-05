@@ -57,12 +57,12 @@ struct ViewThatFitsSwiftUI: View {
 ````````````
 ------------
 
-NavigationSplitView
-===================
-```````````````````ruby
+Grid
+=====
+`````ruby
 
 
 
-```````````````````
+``````
 
 
