@@ -11,6 +11,7 @@
 		E4BAC5852B9749DB0032AC6B /* AnyLayoutSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAC5842B9749DB0032AC6B /* AnyLayoutSwiftUI.swift */; };
 		E4BAC5872B9749DB0032AC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BAC5862B9749DB0032AC6B /* Assets.xcassets */; };
 		E4BAC58A2B9749DB0032AC6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BAC5892B9749DB0032AC6B /* Preview Assets.xcassets */; };
+		E4BAC5952B977D030032AC6B /* ViewThatFitsSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAC5942B977D030032AC6B /* ViewThatFitsSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E4BAC5842B9749DB0032AC6B /* AnyLayoutSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutSwiftUI.swift; sourceTree = "<group>"; };
 		E4BAC5862B9749DB0032AC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4BAC5892B9749DB0032AC6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4BAC5942B977D030032AC6B /* ViewThatFitsSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		E4BAC5932B977C500032AC6B /* ViewThatFits */ = {
 			isa = PBXGroup;
 			children = (
+				E4BAC5942B977D030032AC6B /* ViewThatFitsSwiftUI.swift */,
 			);
 			path = ViewThatFits;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BAC5952B977D030032AC6B /* ViewThatFitsSwiftUI.swift in Sources */,
 				E4BAC5852B9749DB0032AC6B /* AnyLayoutSwiftUI.swift in Sources */,
 				E4BAC5832B9749DB0032AC6B /* SwiftUI2024App.swift in Sources */,
 			);
@@ -229,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -286,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
