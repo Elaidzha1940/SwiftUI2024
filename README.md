@@ -25,3 +25,11 @@ struct AnyLayoutSwiftUI: View {
 }
 `````````
 ---------
+
+ViewThatFits
+============
+````````````ruby
+
+
+````````````
+
