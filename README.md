@@ -60,8 +60,8 @@ struct ViewThatFitsSwiftUI: View {
 ````````````
 ------------
 
-Grid
-----
+Grid 1
+------
 
 <img width="383" alt="light" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/6e8ddf51-3a6d-4a22-81d3-e13bb2fcf8aa">
 <img width="383" alt="dark" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/d550edb3-93ca-44c4-8410-961980c632df">
@@ -111,7 +111,8 @@ struct GridSwiftUI: View {
 <img width="386" alt="light1" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/032664b4-4590-467d-aa86-d04ec441ae4e">
 <img width="386" alt="dark1" src="https://github.com/Elaidzha1940/SwiftUI2024/assets/64445918/84355be0-a341-4a1e-a710-7da7046d41f1">
 
-
+Grid 2
+------
 ``````ruby
 
 import SwiftUI
