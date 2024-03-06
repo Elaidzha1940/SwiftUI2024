@@ -9,12 +9,12 @@
 
 import SwiftUI
 
-class ObservableViewModel: ObservableObject {
-    @Published var title: String = "Apple"
+@Observable class ObservableViewModel {
+    var title: String = "Apple"
 }
 
 struct ObservableSwiftUI: View {
-    @StateObject private var viewModel = ObservableViewModel()
+    @State private var viewModel = ObservableViewModel()
     
     var body: some View {
         VStack(spacing: 20) {
@@ -26,12 +26,12 @@ struct ObservableSwiftUI: View {
             
             ThirdView()
         }
-        .environmentObject(viewModel)
+        .environment(viewModel)
     }
 }
 
 struct ChildView: View {
-    @ObservedObject var viewModel: ObservableViewModel
+    @Bindable var viewModel: ObservableViewModel
     
     var body: some View {
         Button(viewModel.title) {
@@ -41,7 +41,7 @@ struct ChildView: View {
 }
 
 struct ThirdView: View {
-    @EnvironmentObject var viewModel: ObservableViewModel
+    @Environment(ObservableViewModel.self) var viewModel
     
     var body: some View {
         Button(viewModel.title) {
