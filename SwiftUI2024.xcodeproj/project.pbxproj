@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43B3ABD2B98902D0094E97A /* ObservableSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43B3ABC2B98902D0094E97A /* ObservableSwiftUI.swift */; };
 		E4BAC5832B9749DB0032AC6B /* SwiftUI2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAC5822B9749DB0032AC6B /* SwiftUI2024App.swift */; };
 		E4BAC5852B9749DB0032AC6B /* AnyLayoutSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BAC5842B9749DB0032AC6B /* AnyLayoutSwiftUI.swift */; };
 		E4BAC5872B9749DB0032AC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BAC5862B9749DB0032AC6B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43B3ABC2B98902D0094E97A /* ObservableSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSwiftUI.swift; sourceTree = "<group>"; };
 		E4BAC57F2B9749DB0032AC6B /* SwiftUI2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BAC5822B9749DB0032AC6B /* SwiftUI2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2024App.swift; sourceTree = "<group>"; };
 		E4BAC5842B9749DB0032AC6B /* AnyLayoutSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutSwiftUI.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E43B3ABB2B9890070094E97A /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				E43B3ABC2B98902D0094E97A /* ObservableSwiftUI.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
 		E4BAC5762B9749DA0032AC6B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				E4BAC5932B977C500032AC6B /* ViewThatFits */,
 				E4BAC5962B9782D80032AC6B /* Grid */,
 				E4F9388F2B97C0CD005F6D78 /* ControlGroup */,
+				E43B3ABB2B9890070094E97A /* Observable */,
 				E4BAC5922B977BA60032AC6B /* Resources */,
 				E4BAC5882B9749DB0032AC6B /* Preview Content */,
 			);
@@ -189,6 +200,7 @@
 				E4BAC5952B977D030032AC6B /* ViewThatFitsSwiftUI.swift in Sources */,
 				E4BAC5982B9782F10032AC6B /* GridSwiftUI.swift in Sources */,
 				E4F938912B97C0DB005F6D78 /* ControlGroupSwiftUI.swift in Sources */,
+				E43B3ABD2B98902D0094E97A /* ObservableSwiftUI.swift in Sources */,
 				E4BAC5852B9749DB0032AC6B /* AnyLayoutSwiftUI.swift in Sources */,
 				E4BAC5832B9749DB0032AC6B /* SwiftUI2024App.swift in Sources */,
 			);
